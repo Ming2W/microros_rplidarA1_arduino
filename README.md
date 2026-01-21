@@ -59,7 +59,7 @@ lib_deps =
 
 ```bash
 git clone https://github.com/Ming2W/microros_rplidarA1_arduino.git
-cd microros_rplidar
+cd microros_rplidarA1_arduino
 ```
 
 #### 2. Configure WiFi and Agent
@@ -85,6 +85,7 @@ constexpr int LIDAR_MOTOR_PWM_PIN = 9;   // Motor PWM control
 
 #### 4. Build and Upload
 
+After adding these codes to your environment, compile and upload them
 ```bash
 pio run --target upload
 ```
@@ -285,7 +286,7 @@ lib_deps =
 
 ```bash
 git clone https://github.com/Ming2W/microros_rplidarA1_arduino.git
-cd microros_rplidar
+cd microros_rplidarA1_arduino
 ```
 
 #### 2. 配置 WiFi 和 Agent
@@ -311,6 +312,7 @@ constexpr int LIDAR_MOTOR_PWM_PIN = 9;   // 电机 PWM 控制
 
 #### 4. 编译和上传
 
+将这些代码加入到你的环境中后，编译和上传
 ```bash
 pio run --target upload
 ```
